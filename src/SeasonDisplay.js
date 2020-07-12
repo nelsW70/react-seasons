@@ -26,9 +26,9 @@ const SeasonDisplay = (props) => {
 
   return (
     <div className={`season-display ${season}`}>
-      <i className={`icon-left huge ${iconName} icon`}></i>
+      <i className={`rotating icon-left huge ${iconName} icon`}></i>
       <h1>{text}</h1>
-      <i className={`icon-right huge ${iconName} icon`}></i>
+      <i className={`rotating icon-right huge ${iconName} icon`}></i>
     </div>
   );
 };
